@@ -241,6 +241,11 @@
         <feature>openhab-transport-serial</feature>
         <bundle start-level="80">mvn:org.openhab.binding/org.openhab.binding.rfxcom/${project.version}</bundle>
     </feature>
+    
+    <feature name="openhab-binding-roomba" description="Roomba Binding" version="${project.version}">
+        <feature>openhab-runtime-base</feature>
+        <bundle start-level="80">mvn:org.openhab.binding/org.openhab.binding.roomba/${project.version}</bundle>
+    </feature>
 
     <feature name="openhab-binding-russound" description="Russound Binding" version="${project.version}">
         <feature>openhab-runtime-base</feature>
